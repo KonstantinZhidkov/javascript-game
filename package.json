@@ -1,0 +1,20 @@
+{
+  "name": "javascript_game",
+  "version": "1.0.0",
+  "description": "simple vanilla javascript game",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js",
+    "frontend",
+    "game"
+  ],
+  "author": "Konstantin Zhidkov",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
